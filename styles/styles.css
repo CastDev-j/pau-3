@@ -113,6 +113,22 @@ hr {
   font-size: 1.25rem;
 }
 
+/* estilos de imagenes en seccion de imagen */
+.contenedor-imagenes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+}
+
+.contenedor-imagenes img {
+  width: 10rem;
+  height: auto;
+  border-radius: .5rem;
+}
+
 /* estilos de divs */
 #primer-elemento {
   border-style: dotted;
